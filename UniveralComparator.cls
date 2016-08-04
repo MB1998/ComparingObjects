@@ -5,7 +5,7 @@ public class UniversalComparator {
             if(((List<Object>)firstItem).size() > ((List<Object>)secondItem).size()){
                 return 1;
             } else if (((List<Object>)firstItem).size() == ((List<Object>)secondItem).size()){
-				return 0;
+		return 0;
             } else {
                 return -1;
             }
