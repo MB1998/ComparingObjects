@@ -21,7 +21,7 @@ public class UniversalComparator {
 				return -1;
 			}
 		} catch(Exception e) {
-            
+            		System.debug(e.getMessage());
 		}
         return 0;
 	}
